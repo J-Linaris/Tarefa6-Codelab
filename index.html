@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <Title>Minha Página</Title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+           <div id="cabeçalho">
+                    <div class="botão">
+                        <button onclick="light_mode()" id="botao-b">Mudar Modo de Tela</button>
+                    </div>
+                    <div id="links">
+                       <h2 id="h2-links">Links para as seções</h2>
+                        <div id="lista-links">
+                          <div ><a href="#eu">Sobre mim</a></div>
+                          <div ><a href="#aula">O que foi aprendido na aula</a></div>
+                          <div ><a href="#musicas">Gosto musical</a></div>
+                          <div><a href="#lista-git">Meu Git</a></div>
+                        </div>   
+                     </div>
+            </div>         
+            <div id="tela-fundo">         
+                    <div id="eu">
+                      <h2>Sobre mim</h2>
+                      <ul >
+                        <li>Nome: Joao Paulo Menezes Linaris</li>
+                        <li>Faculdade: Instituto de Matemática e Estatística USP</li>
+                        <li>Idade: 18 anos</li>
+                        <li>Curso: Bacharelado em Ciência da Computação</li>
+                        <li>Data de aniversário: 7 de maio</li>
+                      </ul>
+                      <h2>Meu Git</h2>
+                      <ul id="lista-git">
+
+                      </ul>
+
+                    </div>
+                  
+                  
+                    <div id = "aula">
+                      <h2>O que foi aprendido na aula</h2>
+                      <p> Em aula, os veteranos do codelab nos apresentaram os aspectos mais fundamentais da linguagem HTML, dentre eles, estão:</p>
+                      <ul>
+                        <li>O significado e o modo de usar tags;</li>
+                        <li>Uma série de tags relevantes, dentre elas, estão:
+                        </br>
+                            Âncora,</br>
+                            Imagem,</br>
+                            Parágrafo,</br>
+                            Header,</br>
+                            Listas (ordenadas ou não),</br>
+                            Divisões de seções.</br>
+                        </br>
+                        <li>O modo de usar identificação e colocar links na página;</li>
+                        <li>Uma introdução à seção head.</li>
+                      </ul>  
+                    </div>
+                    <div id="musicas">
+                      <h2>Músicas preferidas</h2>
+                      <div class="lista-albuns">
+                         <div id="tupac">
+                          <a href="https://www.youtube.com/watch?v=5gLoEBbZNis"><img class = "albuns" src="https://m.media-amazon.com/images/I/81+hlw7I9BL._UF1000,1000_QL80_.jpg"/></a><div class="albuns-txt">Only god can judge me, Tupac</div>
+                        </div>
+                          
+                        <div id="kanye">
+                          <a href="https://www.youtube.com/watch?v=EzU0ofo3jOs"><img class = "albuns" src="https://i.discogs.com/CaHQvekCnpGFtm4vA8ntU00fZqgI-3fDbbQaCbK3Hnk/rs:fit/g:sm/q:90/h:536/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxODA0/MjItMTYzMTc5NTM3/NS04MDM5LnBuZw.jpeg"/></a><div class="albuns-txt">Homecoming, Kanye West</div>
+                        </div>
+                          
+                        <div id="nba">
+                          <a href="https://www.youtube.com/watch?v=i7uTXxdBuBk"><img class="albuns" src="https://upload.wikimedia.org/wikipedia/en/a/af/UntilDeathNBA.jpg"/></a><div class="albuns-txt">We poppin, NBA Youngboy</div>
+                        </div>
+                          
+                       </div>
+                    </div>
+                  
+                  </div>
+
+      
+    </body>
+    <script src="config.js"></script>
+</html>

@@ -1,0 +1,109 @@
+body{
+    text-align:center;
+    font-family: "calibri",sans-serif;
+    background-color: rgba(0,0,0,0.87);
+    color:white;
+    width:auto;
+    height: 100vh;
+    margin:0px;
+    padding:0px;
+  }
+ul{
+    list-style-type:none;
+    padding-left:0%;
+  }
+a{
+    color: white;
+    font-weight: bold;
+  }
+#tela-fundo{
+    width: 85vw;
+    height: 100%;
+    background-color: rgb(84, 84, 83);
+    margin:auto;
+    margin-bottom:0px;
+    padding-bottom: 20%;
+    padding-top:3%;
+    padding-right: 0px;
+    padding-left:0px;
+  }
+#cabeçalho{
+  width:100%;
+  margin: 0px;
+}
+.albuns{
+    width: 17vw;
+    height: 100%;
+    /* mantém a proporção
+    pois o container é o <a>, que é a própria imagem.*/ 
+    transition: transform 0.3s,filter 1.5s ;
+  }
+.lista-albuns{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items:top;
+
+    
+  }
+.albuns:hover{
+    transform: scale(1.1);
+    filter: grayscale(100%);
+  }
+  
+#links{
+    background-color: rgb(184, 155, 29);
+    padding-top:1px;
+    margin-top:0px;
+    margin-right:0px;
+    padding-right:0px;   
+  
+  }
+  #h2-links{
+      display:inline-block;
+      position: relative;
+      left:6.5vw;
+      
+
+  }
+#tupac{
+    flex-direction:column;
+    align-items:center;
+  }
+  
+#kanye{
+    flex-direction:column;
+  }
+  
+#nba{
+    flex-direction:column;
+  }
+#lista-links {
+    display:flex;
+    justify-content: space-around;
+  }
+.albuns-txt{
+    margin-top: 1vh;
+}
+.botão{
+    float:right;
+}
+
+#botao-b{
+    width:auto;
+    height: 7vh;
+    margin: 5px 20px 0px 0px;
+    font-size: 15px;
+    background-color: rgb(119, 118, 118);
+    border: outset 3px rgb(119, 118, 118);
+    transition: transform 0.1s;
+    border-radius: 10%;
+    color: white;
+}
+#botao-b:active{
+    border: outset 3px rgb(181, 181, 181);
+    transform: scale(0.95);
+}
+#eu{
+  position:center;
+}
